@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="../Images/bg.jpg" id="bg" />
+        <h2 id="text">Mountains</h2>
+        <img src="../Images/man.png" id="man" />
+        <img src="../Images/clouds_1.png" id="clouds_1" />
+        <img src="../Images/clouds_2.png" id="clouds_2" />
+        <img src="../Images/mountain_left.png" id="mountain_left" />
+        <img src="../Images/mountain_right.png" id="mountain_right" />
+    </section>
+        <div class="sec">
+            <h2>Mountains are  Awesome</h2>
+            <p>Mountains are important because they influence regional and global weather 
+                conditions and climate. They provide human beings with medicinal products, 
+                food, biodiversity, energy and freshwater. Mountains provide home for 720 
+                million people, according to the United Nations Development Programme.<br />
+                <br/>
+                Billions of people living in lowlands benefit from mountains. They are the sources
+                of both major and small rivers on Earth. Mountains also play an important role in
+                the water cycle because they capture moisture from the atmosphere and release it in
+                the form of snow or water, which is essential for industries, settlements and agricultural 
+                activities downstream. Water from mountains is also used to generate hydroelectric power.
+                Renewable energy from mountains promotes economic development, especially in rural areas.
+                In developing countries, wood fuel from mountains is the main source of energy for settlements.
+                Mountain wood provides timber for local use and export. Mountains are centers of biodiversity, 
+                because they have plant, crop and animal diversity. They are also the sources of wild foods, 
+                such as mushrooms, birds and game. Mountains also provide ground for recreation, sporting and 
+                tourism activities.However, mountains are prone to land degradation, climate change, natural 
+                disasters and deforestation. Their populations often suffer from poverty, marginalization
+                and lack of access to education and health services.<br />
+                <br/>
+                Mountains are important to us because they're a huge factor in our ecosystem They provide 
+                diverse fauna and flora, recreational activities amazing features etc. It also helps people 
+                who live on lowland as it blocks wild weather. Mountains also contain minerals, water, wood and timber,.In Mountains, 
+                we can get mineral deposits, it has significant influence on climate and determine the course of
+                economic Mountain barriers with their relatively narrow passes have made various ranges throughout 
+                the world.Mountains are landforms that rise prominently above the surrounding landscape. They are
+                topographic features that are defined by a high relief, and their most general features are that they
+                encompass a certain elevational range, have steep slopes, and converge toward small summit areas
+            </p>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
+        <script>
+
+         gsap.to("#bg", {
+             scrollTrigger: {
+                 scrub : 1
+             },
+             scale:1.7
+         });
+        
+         gsap.to("#man", {
+             scrollTrigger: {
+                 scrub : 1
+             },
+             scale:0.3
+         });
+
+         gsap.to("#mountain_left", {
+             scrollTrigger: {
+                 scrub : 1
+             },
+             x : -500,
+         });
+
+         gsap.to("#mountain_right", {
+             scrollTrigger: {
+                 scrub : 1
+             },
+             x : 500,
+         });
+
+         gsap.to("#clouds_1", {
+             scrollTrigger: {
+                 scrub : 1
+             },
+             x : 200,
+         });
+
+         gsap.to("#clouds_2", {
+             scrollTrigger: {
+                 scrub : 1
+             },
+             x : 200,
+         });
+
+         gsap.to("#text", {
+             scrollTrigger: {
+                 scrub : 1
+             },
+             y : 500,
+         });
+
+
+         
+         
+
+
+        </script>
+</body>
+</html>
